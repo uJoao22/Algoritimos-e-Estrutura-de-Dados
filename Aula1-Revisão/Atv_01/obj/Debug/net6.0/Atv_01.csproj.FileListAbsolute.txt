@@ -1,0 +1,15 @@
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.csproj.AssemblyReference.cache
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.AssemblyInfoInputs.cache
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.AssemblyInfo.cs
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.csproj.CoreCompileInputs.cache
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\bin\Debug\net6.0\Atv_01.exe
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\bin\Debug\net6.0\Atv_01.deps.json
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\bin\Debug\net6.0\Atv_01.runtimeconfig.json
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\bin\Debug\net6.0\Atv_01.dll
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\bin\Debug\net6.0\Atv_01.pdb
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.dll
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\refint\Atv_01.dll
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.pdb
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\Atv_01.genruntimeconfig.cache
+C:\Users\1382123\Desktop\Atividades\Aula1-Revisão\Atv_01\obj\Debug\net6.0\ref\Atv_01.dll
