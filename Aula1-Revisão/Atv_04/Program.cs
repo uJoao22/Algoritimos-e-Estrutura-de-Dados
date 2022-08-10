@@ -15,7 +15,7 @@ namespace Atv_02
                 Qual a melhor semana para vender carros? 1ª, 2ª, 3ª ou 4ª? 
              */
 
-            double[,] matriz = new double[12][4];
+            double[,] matriz = new double[12, 4];
 
             PreencheMatrizECalcula(matriz);
         }
@@ -25,14 +25,14 @@ namespace Atv_02
             for(int i=0; i<mat.GetLength(0); i++) {
                 double totMes = 0;
                 for(int j=0; j<mat.GetLength(1); j++) {
-                    Console.WriteLine("Insira o valor faturado na {0}° semana de {1}", j, pegaMes(i));
-                    mat[i][j] = double.Parse(Console.ReadLine());
-                    totMes += mat[i][j];
+                    Console.WriteLine("Insira o valor faturado na {0}° semana de {1}", j+1, pegaMes(i+1));
+                    mat[i, j] = double.Parse(Console.ReadLine());
+                    totMes += mat[i, j];
                 }
-                Console.WriteLine("Foi vendido R${0:0.00} nesse mês");
+                Console.WriteLine("Foi vendido R${0:0.00} nesse mês", totMes);
                 totAno += totMes;
             }
-            Console.WriteLine("Foi vendido R${0:0.00} no ano");
+            Console.WriteLine("Foi vendido R${0:0.00} no ano", totAno);
         }
 
         public static string pegaMes(int nMes) {

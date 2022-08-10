@@ -21,7 +21,7 @@ namespace Atv_02
 
         public static double CalVolume(ref double r) {
             r = Math.Floor(r);
-           return (4 * 3.14 * Math.Pow(r, 3))/3;
+           return (4 * Math.PI * Math.Pow(r, 3))/3;
         }
 
     }
