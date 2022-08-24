@@ -24,12 +24,16 @@ namespace Atv_02
             double totAno = 0;
             for(int i=0; i<mat.GetLength(0); i++) {
                 double totMes = 0;
+                int melSem = 0;
                 for(int j=0; j<mat.GetLength(1); j++) {
                     Console.WriteLine("Insira o valor faturado na {0}° semana de {1}", j+1, pegaMes(i+1));
                     mat[i, j] = double.Parse(Console.ReadLine());
                     totMes += mat[i, j];
+                    if (totMes>melSem)
+                        melSem = j;
                 }
                 Console.WriteLine("Foi vendido R${0:0.00} nesse mês", totMes);
+                Console.WriteLine("A melhor semana ára vender", totMes);
                 totAno += totMes;
             }
             Console.WriteLine("Foi vendido R${0:0.00} no ano", totAno);
