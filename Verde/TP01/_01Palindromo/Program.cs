@@ -9,10 +9,10 @@ namespace teste {
 
 			do {
 				word = Console.ReadLine();
-				if (word.ToUpper().Equals("FIM")) 
+				if (word.ToUpper().Equals("FIM"))
 					continue;
 
-				resp.Add(isPalindromo(word) ? "SIM" : "NÃO");
+				resp.Add(isPalindromo(word) ? "SIM" : "NAO");
 			} while(!word.ToUpper().Equals("FIM"));
 
 			foreach(string r in resp)
