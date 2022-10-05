@@ -1,6 +1,4 @@
 using System;
-using System.Text;
-using System.Collections.Generic;
 
 namespace _02Ciframento {
 	class Program {
@@ -18,12 +16,11 @@ namespace _02Ciframento {
 		}
 
 		public static string Ciframento(string s) {
-			List<Byte> sByte = new List<Byte>();
-
+			string cifra = "";
 			for(int i=0; i<s.Length; i++)
-				sByte.Add(Convert.ToByte(s[i]+3));
+				cifra += (char) ((int) s[i] + 3);
 
-            return Encoding.ASCII.GetString(sByte.ToArray());
+			return cifra;
 		}
 	}
 }
