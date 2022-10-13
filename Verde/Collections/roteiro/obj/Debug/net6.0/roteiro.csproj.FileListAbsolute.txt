@@ -1,0 +1,15 @@
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.csproj.AssemblyReference.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.AssemblyInfoInputs.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.AssemblyInfo.cs
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.csproj.CoreCompileInputs.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\bin\Debug\net6.0\roteiro.exe
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\bin\Debug\net6.0\roteiro.deps.json
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\bin\Debug\net6.0\roteiro.runtimeconfig.json
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\bin\Debug\net6.0\roteiro.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\bin\Debug\net6.0\roteiro.pdb
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\refint\roteiro.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.pdb
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\roteiro.genruntimeconfig.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\roteiro\obj\Debug\net6.0\ref\roteiro.dll

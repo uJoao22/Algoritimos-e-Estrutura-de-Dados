@@ -1,0 +1,15 @@
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.csproj.AssemblyReference.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.AssemblyInfoInputs.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.AssemblyInfo.cs
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.csproj.CoreCompileInputs.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\bin\Debug\net6.0\Atv01.exe
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\bin\Debug\net6.0\Atv01.deps.json
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\bin\Debug\net6.0\Atv01.runtimeconfig.json
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\bin\Debug\net6.0\Atv01.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\bin\Debug\net6.0\Atv01.pdb
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\refint\Atv01.dll
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.pdb
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\Atv01.genruntimeconfig.cache
+D:\Desktop\João\Faculdade\2º Periodo\Algoritimos e Estrutura de Dados (AED)\Laboratorio\Algoritimos-e-Estrutura-de-Dados\Verde\Collections\lista\Atv01\obj\Debug\net6.0\ref\Atv01.dll
