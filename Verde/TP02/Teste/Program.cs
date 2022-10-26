@@ -6,9 +6,17 @@ namespace _01Classe {
   // A entrada padrão é composta por várias linhas e cada uma contém dados do jogador que devem  ser tratados e armazenados em objetos da classe Jogador. A última linha da entrada contém FIM. A saída padrão também contém várias linhas, uma para cada registro contido na entrada padrão, conforme o exemplo abaixo:
 	class Program {
 		static void Main(string[] args) {
-      Jogador jogador = new Jogador();
-      jogador.Ler();
-      jogador.Imprimir();
+      string word = "";
+
+      do {
+				word = Console.ReadLine();
+				if (word.ToUpper().Equals("FIM"))
+					continue;
+
+        Jogador jogador = new Jogador();
+        jogador.Ler(word);
+        jogador.Imprimir();
+			} while(!word.ToUpper().Equals("FIM"));
     }
 	}
 
@@ -63,8 +71,8 @@ namespace _01Classe {
       this.times = times;
     }
 
-    public void Ler() {
-      string[] resp = Console.ReadLine().Split('[');
+    public void Ler(string v) {
+      string[] resp = v.Split('[');
       string[] dados = resp[0].Split(',');
 
       SetId(Convert.ToInt32(dados[0]));
@@ -86,7 +94,11 @@ namespace _01Classe {
     }
 
     public void Imprimir() {
-      Console.Write("{0} {1} {2} {3} (", GetId(), GetNome(), GetNascimento().ToString("dd/MM/yyyy"), GetFoto());
+      Console.Write("\n{0} {1} ", GetId(), GetNome());
+
+      string data = GetNascimento().ToString("dd/MM/yyyy");
+      string newData = data.Substring(0, 2).TrimStart('0') + data.Substring(2, data.Length-2);
+      Console.Write("{0} {1} (", newData, GetFoto());
 
       int[] t = GetTimes();
 
