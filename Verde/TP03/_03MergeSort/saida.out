@@ -1,0 +1,19 @@
+C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\Program.cs(88,12): warning CS8618: O campo n∆o anul†vel 'nome' precisa conter um valor n∆o nulo ao sair do construtor. Considere declarar o campo como anul†vel. [C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\_03MergeSort.csproj]
+C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\Program.cs(88,12): warning CS8618: O campo n∆o anul†vel 'foto' precisa conter um valor n∆o nulo ao sair do construtor. Considere declarar o campo como anul†vel. [C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\_03MergeSort.csproj]
+C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\Program.cs(88,12): warning CS8618: O campo n∆o anul†vel 'times' precisa conter um valor n∆o nulo ao sair do construtor. Considere declarar o campo como anul†vel. [C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\_03MergeSort.csproj]
+C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\Program.cs(18,12): warning CS8600: Convers∆o de literal nula ou poss°vel valor nulo em tipo n∆o anul†vel. [C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\_03MergeSort.csproj]
+C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\Program.cs(19,9): warning CS8602: Desreferància de uma referància possivelmente nula. [C:\Users\User\OneDrive\µrea de Trabalho\Jo∆o\Algoritimos-e-Estrutura-de-Dados\Verde\TP03\_03MergeSort\_03MergeSort.csproj]
+29368 L√©o Moura 23/10/1978 https://tmssl.akamaized.net/images/portrait/header/29368-1571658651.jpg (614, 210, 585, 1785)
+54273 Chic√£o 3/06/1981 https://tmssl.akamaized.net//bilder/spielerfotos/s_54273_199_2012_2.jpg (614, 199, 4064)
+20053 Elano 14/06/1981 https://tmssl.akamaized.net/images/portrait/header/20053-1413549445.jpg (614, 210, 221)
+54275 Andr√© Santos 8/03/1983 https://tmssl.akamaized.net/images/portrait/header/54275-1506028490.jpg (614, 210, 199, 4064)
+167471 Jo√£o Paulo 1/07/1986 https://tmssl.akamaized.net//bilder/spielerfotos/s_167471_614_2012_2.jpg (614, 1023, 10010, 2863, 1134, 4064, 1755)
+225686 Amaral 1/05/1988 https://tmssl.akamaized.net//bilder/spielerfotos/s_225686_614_2012_2.jpg (614, 18545, 2125, 17561)
+163434 Frickson Erazo 5/05/1988 https://tmssl.akamaized.net//bilder/spielerfotos/s_163434_614_2014_01_23_1.jpg (614, 210, 330, 978)
+95152 Welinton 10/04/1989 https://tmssl.akamaized.net/images/portrait/header/95152-1567776321.png (614, 776)
+150085 L√©o Morais 3/10/1991 https://tmssl.akamaized.net/images/portrait/header/150085-1554733566.jpg (614, 6600, 2462, 679, 776, 2035, 2125)
+174818 Muralha 21/01/1993 https://tmssl.akamaized.net//bilder/spielerfotos/s_174818_10247_2012_1.jpg (614, 10247, 21599)
+296889 Fernando 19/03/1993 https://tmssl.akamaized.net/images/portrait/header/default.jpg (614, 8793)
+258620 Feij√£o 8/04/1994 https://tmssl.akamaized.net//bilder/spielerfotos/s_258620_10010_2012_1.jpg (614, 10010, 15172, 11449, 8433)
+226138 Mattheus 7/07/1994 https://tmssl.akamaized.net/images/portrait/header/226138-1547405332.png (614)
+320205 Recife 14/10/1994 https://tmssl.akamaized.net/images/portrait/header/default.jpg (614, 15172, 8294)
