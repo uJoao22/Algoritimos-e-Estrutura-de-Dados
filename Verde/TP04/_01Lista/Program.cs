@@ -100,12 +100,14 @@ namespace _01Selecao {
     }
 
     public void Inserir(Jogador jogador, int pos) {
-      if(pos < 0 || pos > Length())
+      int length = Length();
+
+      if(pos < 0 || pos > length)
 			  throw new Exception("Posição invalida!");
       
       if (pos == 0){
         InserirInicio(jogador);
-      } else if (pos == Length()) {
+      } else if (pos == length) {
          InserirFim(jogador);
       } else {
          Celula i = this.primeiro;
@@ -149,16 +151,17 @@ namespace _01Selecao {
 
     public Jogador Remover(int pos) {
       Jogador resp;
+      int length = Length();
 
       if (primeiro == ultimo)
         throw new Exception("Lista Vazia");
 
-       if(pos < 0 || pos >= Length())
+       if(pos < 0 || pos >= length)
         throw new Exception("Posição invalida!");
       
       if (pos == 0) {
         resp = RemoverInicio();
-      } else if (pos == Length() - 1){
+      } else if (pos == length - 1){
         resp = RemoverFim();
       } else {
         Celula i = this.primeiro;
