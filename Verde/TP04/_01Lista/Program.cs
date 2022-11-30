@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 
 namespace _01Selecao {
   // Lista com Alocação dinâmica em C#: Repita o exercício de lista, porém, não poderá utilizarestruturas nativas, você deverá implementar as estrurutas.
 	class Program {
 		static void Main(string[] args) {
-      Celula lista = new Celula();
+      Lista lista = new Lista();
 
       InsereElementosIniciais(lista);
 
@@ -49,7 +49,7 @@ namespace _01Selecao {
       lista.Print();
     }
 
-    public static void InsereElementosIniciais(Celula lista) {
+    public static void InsereElementosIniciais(Lista lista) {
       string word = "";
       do {
 				word = Console.ReadLine();
@@ -67,103 +67,122 @@ namespace _01Selecao {
   public class Celula {
     public Jogador elemento;
     public Celula prox;
-
-    public Celula() {
-    }
+    public Celula() {}
 
     public Celula(Jogador x) {
       this.elemento = x;
       this.prox = null;
     }
+  }
+
+  public class Lista {
+    public Celula primeiro;
+    public Celula ultimo;
+
+    public Lista() {
+      this.primeiro = new Celula();
+      this.ultimo = this.primeiro;
+    }
 
     public void InserirInicio(Jogador jogador) {
-      Celula tmp = new Celula(this.elemento);
-      tmp.prox = this.prox;
-      this.elemento = jogador;
-      this.prox = tmp;
+      Celula tmp = new Celula(jogador);
+      tmp.prox = this.primeiro.prox;
+		  this.primeiro.prox = tmp;
+		  if (this.primeiro == this.ultimo) {                 
+			  this.ultimo = tmp;
+		  }
       tmp = null;
     }
 
     public void InserirFim(Jogador jogador) {
-      if (this.elemento == null) {
-        this.elemento = jogador;
-        this.prox = null;
-      } else {
-        for(Celula i = this; i != null; i = i.prox) {
-          if (i.prox == null)
-            i.prox = new Celula(jogador);
-        }
-      }
+      this.ultimo.prox = new Celula(jogador);
+      this.ultimo = this.ultimo.prox;
     }
 
     public void Inserir(Jogador jogador, int pos) {
-      if (pos == 0 && this.elemento == null) {
-        this.elemento = jogador;
-        return;
+      if(pos < 0 || pos > Length())
+			  throw new Exception("Posição invalida!");
+      
+      if (pos == 0){
+        InserirInicio(jogador);
+      } else if (pos == Length()) {
+         InserirFim(jogador);
       } else {
-        int cont = 1;
-        for(Celula i = this.prox; i != null; i = i.prox) {
-          if (cont == pos) {
-            Celula tmp = i.prox;
-            i.elemento = jogador;
-            i.prox = tmp;
-            tmp = null;
-            return;
-          }
-
-          cont++;
-        }
+         Celula i = this.primeiro;
+         for(int j = 0; j < pos; j++, i = i.prox);
+		
+         Celula tmp = new Celula(jogador);
+         tmp.prox = i.prox;
+         i.prox = tmp;
+         i = null;
+         tmp = null;
       }
-
-      throw new Exception("Posição Inválida");
     }
 
     public Jogador RemoverInicio() {
-      if (this.elemento == null)
+		  if (this.primeiro == this.ultimo)
         throw new Exception("Lista Vazia");
 
-      Jogador resp = this.elemento;
-      this.elemento = this.prox.elemento;
-      this.prox = this.prox.prox;
+      Celula tmp = this.primeiro;
+      this.primeiro = this.primeiro.prox;
+      Jogador resp = this.primeiro.elemento;
+      tmp.prox = null;
+      tmp = null;
+
       return resp;
     }
 
     public Jogador RemoverFim() {
-      if (this.elemento == null)
+      if (primeiro == ultimo)
         throw new Exception("Lista Vazia");
 
-      for(Celula i = this; i != null; i = i.prox) {
-        if (i.prox == null) {
-          Jogador resp = i.elemento;
-          i = null;
-          return resp;
-        }
-      }
+      Celula i;
+      for(i = this.primeiro; i.prox != this.ultimo; i = i.prox);
 
-      throw new Exception("Não é possível remover.");
+      Jogador resp = this.ultimo.elemento; 
+      this.ultimo = i; 
+      this.ultimo.prox = null;
+      i = null;
+        
+      return resp;
     }
 
     public Jogador Remover(int pos) {
-      if (this.elemento == null)
+      Jogador resp;
+
+      if (primeiro == ultimo)
         throw new Exception("Lista Vazia");
 
-      int cont = 0;
-      for(Celula i = this; i != null; i = i.prox) {
-        if (cont == pos) {
-          Jogador resp = i.elemento;
-          i.elemento = i.prox.elemento;
-          i.prox = i.prox.prox;
-          return resp;
-        }
-
-        cont++;
+       if(pos < 0 || pos >= Length())
+        throw new Exception("Posição invalida!");
+      
+      if (pos == 0) {
+        resp = RemoverInicio();
+      } else if (pos == Length() - 1){
+        resp = RemoverFim();
+      } else {
+        Celula i = this.primeiro;
+        for(int j = 0; j < pos; j++, i = i.prox);
+    
+        Celula tmp = i.prox;
+        resp = tmp.elemento;
+        i.prox = tmp.prox;
+        tmp.prox = null;
+        tmp = null;
+        i = null;
       }
 
-      throw new Exception("Não é possível remover.");
+      return resp;
     }
 
+    public int Length() {
+      int length = 0; 
+      for(Celula i = this.primeiro; i != this.ultimo; i = i.prox, length++);
+      return length;
+   }
+
     public void Print() {
-      for(Celula i = this; i != null; i = i.prox) {
+      for(Celula i = this.primeiro.prox; i != null; i = i.prox) {
         i.elemento.Imprimir();
       }
     }
