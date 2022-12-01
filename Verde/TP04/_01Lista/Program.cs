@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01Selecao {
+namespace _01Lista {
   // Lista com Alocação dinâmica em C#: Repita o exercício de lista, porém, não poderá utilizarestruturas nativas, você deverá implementar as estrurutas.
 	class Program {
 		static void Main(string[] args) {
@@ -88,7 +88,7 @@ namespace _01Selecao {
       Celula tmp = new Celula(jogador);
       tmp.prox = this.primeiro.prox;
 		  this.primeiro.prox = tmp;
-		  if (this.primeiro == this.ultimo) {                 
+		  if (this.primeiro == this.ultimo) {
 			  this.ultimo = tmp;
 		  }
       tmp = null;
@@ -104,7 +104,7 @@ namespace _01Selecao {
 
       if(pos < 0 || pos > length)
 			  throw new Exception("Posição invalida!");
-      
+
       if (pos == 0){
         InserirInicio(jogador);
       } else if (pos == length) {
@@ -112,7 +112,7 @@ namespace _01Selecao {
       } else {
          Celula i = this.primeiro;
          for(int j = 0; j < pos; j++, i = i.prox);
-		
+
          Celula tmp = new Celula(jogador);
          tmp.prox = i.prox;
          i.prox = tmp;
@@ -141,11 +141,11 @@ namespace _01Selecao {
       Celula i;
       for(i = this.primeiro; i.prox != this.ultimo; i = i.prox);
 
-      Jogador resp = this.ultimo.elemento; 
-      this.ultimo = i; 
+      Jogador resp = this.ultimo.elemento;
+      this.ultimo = i;
       this.ultimo.prox = null;
       i = null;
-        
+
       return resp;
     }
 
@@ -158,7 +158,7 @@ namespace _01Selecao {
 
        if(pos < 0 || pos >= length)
         throw new Exception("Posição invalida!");
-      
+
       if (pos == 0) {
         resp = RemoverInicio();
       } else if (pos == length - 1){
@@ -166,7 +166,7 @@ namespace _01Selecao {
       } else {
         Celula i = this.primeiro;
         for(int j = 0; j < pos; j++, i = i.prox);
-    
+
         Celula tmp = i.prox;
         resp = tmp.elemento;
         i.prox = tmp.prox;
@@ -179,7 +179,7 @@ namespace _01Selecao {
     }
 
     public int Length() {
-      int length = 0; 
+      int length = 0;
       for(Celula i = this.primeiro; i != this.ultimo; i = i.prox, length++);
       return length;
    }

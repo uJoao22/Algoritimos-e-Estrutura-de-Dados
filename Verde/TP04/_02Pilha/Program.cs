@@ -1,13 +1,9 @@
 ﻿using System;
 
-namespace _05Pilha {
-  // Pilha com Alocação Sequencial em C#: Crie uma Pilha de Jogadores baseada na pilha de inteiros vista na sala de aula.
-  // A pilha pode ter tamanho 20.
-  // Neste exercício, faremos inserções, remoções e mostraremos os elementos de nossa pilha.
-  // A entrada e a saída padrão serão como as da questão anterior, contudo, teremos apenas os comandos I para inserir na pilha (empilhar) e R para remover (desempilhar).
-
-  class Program {
-    static void Main(string[] args) {
+namespace _01Selecao {
+  // Pilha com Alocação dinâmica em C#: Repita o exercício de pilha, porém, não poderáutilizar estruturas nativas, você deverá implementar as estrurutas.
+	class Program {
+		static void Main(string[] args) {
       Pilha pilha = new Pilha();
 
       InsereElementosIniciais(pilha);
@@ -30,7 +26,7 @@ namespace _05Pilha {
         }
       }
 
-      pilha.Print();
+      pilha.Print(pilha.topo);
     }
 
     public static void InsereElementosIniciais(Pilha pilha) {
@@ -46,35 +42,51 @@ namespace _05Pilha {
         pilha.Inserir(jogador);
 			} while(!word.ToUpper().Equals("FIM"));
     }
-  }
+	}
+
+  public class Celula {
+	public Jogador elemento;
+	public Celula prox;
+
+	public Celula() {}
+
+	public Celula(Jogador elemento) {
+      this.elemento = elemento;
+      this.prox = null;
+	}
+}
 
   public class Pilha {
-    Jogador[] array;
-    int count;
+	  public Celula topo;
 
     public Pilha() {
-      this.array = new Jogador[20];
-      this.count = 0;
+      this.topo = null;
     }
 
     public void Inserir(Jogador jogador) {
-      if (count >= array.Length)
-        throw new Exception("Pilha Cheia");
-
-      array[count] = jogador;
-      count++;
+      Celula tmp = new Celula(jogador);
+      tmp.prox = this.topo;
+      this.topo = tmp;
+      tmp = null;
     }
 
     public Jogador Remover() {
-      if (count <= 0)
-        throw new Exception("Pilha Vazia");
+		  if (this.topo == null)
+        throw new Exception("Lista Vazia");
 
-      return array[count--];
+      Jogador resp = this.topo.elemento;
+      Celula tmp = this.topo;
+      this.topo = this.topo.prox;
+      tmp.prox = null;
+      tmp = null;
+
+      return resp;
     }
 
-    public void Print() {
-      for (int i=0; i<count; i++) {
-        array[i].Imprimir();
+    public void Print(Celula i) {
+      if (i != null) {
+        Print(i.prox);
+        i.elemento.Imprimir();
       }
     }
   }
